@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.notification{
+    @apply flex w-full items-center px-1 py-3 my-2 rounded-md
+}
+.user{
+    @apply px-2 mb-0 text-xs
+}
